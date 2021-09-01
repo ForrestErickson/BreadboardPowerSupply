@@ -1,0 +1,192 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title "BreadBoardPowerSupply5V"
+Date "2021-09-01"
+Rev "0.0.1"
+Comp "Amused Scientist"
+Comment1 "From the KiCad like a pro class."
+Comment2 "Design by (Forrest) Lee Erickson"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:CP C?
+U 1 1 612FCC1E
+P 4050 3500
+F 0 "C?" H 4168 3546 50  0000 L CNN
+F 1 "470uF" H 4168 3455 50  0000 L CNN
+F 2 "" H 4088 3350 50  0001 C CNN
+F 3 "~" H 4050 3500 50  0001 C CNN
+	1    4050 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 612FE82D
+P 4850 3500
+F 0 "C?" H 4968 3546 50  0000 L CNN
+F 1 "470uF" H 4968 3455 50  0000 L CNN
+F 2 "" H 4888 3350 50  0001 C CNN
+F 3 "~" H 4850 3500 50  0001 C CNN
+	1    4850 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 612FF47B
+P 5600 3500
+F 0 "R?" H 5668 3546 50  0000 L CNN
+F 1 "560" H 5668 3455 50  0000 L CNN
+F 2 "" V 5640 3490 50  0001 C CNN
+F 3 "~" H 5600 3500 50  0001 C CNN
+	1    5600 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 61300408
+P 6050 3500
+F 0 "R?" H 6118 3546 50  0000 L CNN
+F 1 "560" H 6118 3455 50  0000 L CNN
+F 2 "" V 6090 3490 50  0001 C CNN
+F 3 "~" H 6050 3500 50  0001 C CNN
+	1    6050 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 613005C3
+P 3050 4000
+F 0 "D?" V 3096 3920 50  0000 R CNN
+F 1 "1N4007" V 3005 3920 50  0000 R CNN
+F 2 "" H 3050 4000 50  0001 C CNN
+F 3 "~" H 3050 4000 50  0001 C CNN
+	1    3050 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61301B1C
+P 2500 4000
+F 0 "D?" V 2546 3920 50  0000 R CNN
+F 1 "1N4007" V 2455 3920 50  0000 R CNN
+F 2 "" H 2500 4000 50  0001 C CNN
+F 3 "~" H 2500 4000 50  0001 C CNN
+	1    2500 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61301E61
+P 2500 3500
+F 0 "D?" V 2546 3420 50  0000 R CNN
+F 1 "1N4007" V 2455 3420 50  0000 R CNN
+F 2 "" H 2500 3500 50  0001 C CNN
+F 3 "~" H 2500 3500 50  0001 C CNN
+	1    2500 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6130277D
+P 3050 3500
+F 0 "D?" V 3096 3420 50  0000 R CNN
+F 1 "1N4007" V 3005 3420 50  0000 R CNN
+F 2 "" H 3050 3500 50  0001 C CNN
+F 3 "~" H 3050 3500 50  0001 C CNN
+	1    3050 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Regulator_Linear:LM7805_TO220 U?
+U 1 1 61302983
+P 3550 1900
+F 0 "U?" H 3550 2142 50  0000 C CNN
+F 1 "LM7805_TO220" H 3550 2051 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 3550 2125 50  0001 C CIN
+F 3 "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF" H 3550 1850 50  0001 C CNN
+	1    3550 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 61306FA6
+P 1600 2300
+F 0 "D?" V 1639 2182 50  0000 R CNN
+F 1 "LED" V 1548 2182 50  0000 R CNN
+F 2 "" H 1600 2300 50  0001 C CNN
+F 3 "~" H 1600 2300 50  0001 C CNN
+	1    1600 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 61308960
+P 5300 2200
+F 0 "D?" V 5339 2082 50  0000 R CNN
+F 1 "LED_Green" V 5248 2082 50  0000 R CNN
+F 2 "" H 5300 2200 50  0001 C CNN
+F 3 "~" H 5300 2200 50  0001 C CNN
+	1    5300 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 61309746
+P 6000 2200
+F 0 "D?" V 6039 2082 50  0000 R CNN
+F 1 "LED_Red" V 5948 2082 50  0000 R CNN
+F 2 "" H 6000 2200 50  0001 C CNN
+F 3 "~" H 6000 2200 50  0001 C CNN
+	1    6000 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_DPDT_x2 SW?
+U 1 1 6130A387
+P 2400 2200
+F 0 "SW?" H 2400 2485 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 2400 2394 50  0000 C CNN
+F 2 "" H 2400 2200 50  0001 C CNN
+F 3 "~" H 2400 2200 50  0001 C CNN
+	1    2400 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J?
+U 1 1 6130D887
+P 1300 1600
+F 0 "J?" H 1350 1817 50  0000 C CNN
+F 1 "Conn_02x02_Odd_Even" H 1350 1726 50  0000 C CNN
+F 2 "" H 1300 1600 50  0001 C CNN
+F 3 "~" H 1300 1600 50  0001 C CNN
+	1    1300 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J?
+U 1 1 6130E622
+P 7450 1800
+F 0 "J?" H 7500 2017 50  0000 C CNN
+F 1 "Conn_02x02_Odd_Even" H 7500 1926 50  0000 C CNN
+F 2 "" H 7450 1800 50  0001 C CNN
+F 3 "~" H 7450 1800 50  0001 C CNN
+	1    7450 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Barrel_Jack_Switch J?
+U 1 1 6130F67C
+P 950 2450
+F 0 "J?" H 1007 2767 50  0000 C CNN
+F 1 "Barrel_Jack_Switch" H 1007 2676 50  0000 C CNN
+F 2 "" H 1000 2410 50  0001 C CNN
+F 3 "~" H 1000 2410 50  0001 C CNN
+	1    950  2450
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

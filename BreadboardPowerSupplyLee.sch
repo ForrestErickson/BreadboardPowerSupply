@@ -442,10 +442,10 @@ Linear Regulator
 Text Notes 7650 3000 0    50   ~ 0
 Power Connections to \nsolderless bread board.
 $Comp
-L Connector:TestPoint GND
+L Connector:TestPoint GND1
 U 1 1 613A17C1
 P 3350 5100
-F 0 "GND" H 3408 5218 50  0000 L CNN
+F 0 "GND1" H 3408 5218 50  0000 L CNN
 F 1 "GND" H 3400 5150 50  0000 L CNN
 F 2 "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm" H 3550 5100 50  0001 C CNN
 F 3 "~" H 3550 5100 50  0001 C CNN
@@ -456,10 +456,10 @@ Connection ~ 3350 5100
 Wire Wire Line
 	3350 5100 3800 5100
 $Comp
-L Connector:TestPoint Vcc
+L Connector:TestPoint Vcc1
 U 1 1 613A1CE4
 P 6450 3450
-F 0 "Vcc" H 6508 3568 50  0000 L CNN
+F 0 "Vcc1" H 6508 3568 50  0000 L CNN
 F 1 "Vcc" H 6500 3500 50  0000 L CNN
 F 2 "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm" H 6650 3450 50  0001 C CNN
 F 3 "~" H 6650 3450 50  0001 C CNN
